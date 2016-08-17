@@ -11,5 +11,5 @@ import java.lang.annotation.Target;
 public @interface CardAnotation {
         String type();
         String description();
-        String getAnotaion();
+        String category();
 }
