@@ -3,11 +3,9 @@ package cardSuit;
 
 import anotations.CardAnotation;
 
-import java.lang.annotation.Annotation;
-
-@CardAnotation(type = "Enumeration",
-        description = "Provides rank constants for a Card class.",
-        getAnotaion = "Type = Enumeration, Description = Provides rank constants for a Card class.")
+@CardAnotation(type = "Type = Enumeration",
+        description = "Description = Provides rank constants for a Card class.",
+        category = "Category = Rank")
 public enum CardRank {
     ACE(14),
     TWO(2),
@@ -30,14 +28,7 @@ public enum CardRank {
 
     }
 
-
-
     public int getCardPower() {
         return cardPower;
-    }
-
-
-    private Annotation[] getAnnotations() {
-        return
     }
 }

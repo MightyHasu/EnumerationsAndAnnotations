@@ -2,9 +2,9 @@ package cardSuit;
 
 import anotations.CardAnotation;
 
-@CardAnotation(type = "Enumeration",
-        description = "Provides suit constants for a Card class.",
-        getAnotaion = "Type = Enumeration, Description = Provides suit constants for a Card class.")
+@CardAnotation(type = "Type = Enumeration",
+        description = "Description = Provides suit constants for a Card class.",
+        category = "Category = Suit")
 public enum CardSuit {
     CLUBS(0),
     DIAMONDS(13),
